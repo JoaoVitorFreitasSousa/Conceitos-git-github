@@ -17,8 +17,20 @@ git init
 
 ```
 
-Para verificaar a situação do repositório(pasta)
+Para verificar a situação do repositório(pasta)
 usamos o status a qualquer momento
 ```bash
 git status
+```
+
+Quando o status mostrar arquivos em vermelho é necessario rodar o add para adicionar os arquivos a serem salvos.
+Obs: "." adiciona todos os arquivos da pasta atual
+```bash
+git add .
+```
+
+Para salvar uma versão dos arquivos na situação atual usamos o commit.
+O -m adiciona uma mensagem do porque estes arquivos estao sendo salvos
+```bash
+git commit -m "Mensagem"
 ```
