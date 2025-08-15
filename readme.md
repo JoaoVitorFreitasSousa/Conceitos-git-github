@@ -34,3 +34,14 @@ O -m adiciona uma mensagem do porque estes arquivos estao sendo salvos
 ```bash
 git commit -m "Mensagem"
 ```
+
+Para baixar as alterações que estão apenas no Github utilizamos o pull <br>
+**IMPORTANTE:** Sempre deve baixar a ultima versão da nuvem antes de enviar o atual do computador
+```bash
+git pull
+```
+
+Para enviar os commits do pc para o Github utilizamos o push.
+```bash
+git push
+```
